@@ -1,0 +1,41 @@
+# Byte-compiled / cached
+__pycache__/
+*.py[cod]
+*$PYTHONSTARTUP
+*$PYTHONPATH
+
+# Virtual environment
+venv/
+.env/
+*.venv
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Unit test / coverage reports
+.coverage
+.tox/
+nosetests.xml
+pytest_cache/
+
+# MyPy cache
+.mypy_cache/
+
+# Editor / IDE files
+.vscode/
+.idea/
+*.swp
+
+# Ignore secrets or environment files
+.env
+data/v1-5-pruned-emaonly.ckpt
